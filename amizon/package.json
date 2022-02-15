@@ -4,7 +4,8 @@
   "description": "this is a copycat of the amazon website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass_compile": "sass -w src/SASS/main.scss:public/style.css"
+
   },
   "author": "amine",
   "license": "ISC",

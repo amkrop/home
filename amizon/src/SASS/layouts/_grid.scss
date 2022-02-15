@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 99px;
+}
+
+.top_header{
+    display: flex;
+    background-color: lightblue;
+    height: 60px;
+    width: 100%;
+    .main_logo{
+        width: 113px;
+        height: 60px;
+    }
+}
+
+.buttom_header{
+    display: flex;
+    background-color: lightgreen;
+    height: 39px;;
+}

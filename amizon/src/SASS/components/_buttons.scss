@@ -1,4 +1,11 @@
-@use "../absreacts/mixins"
+.top_header, .buttom_header{
+    button{
+        border: none;
+        &:hover{
+            border: 1px solid white;
+        }
+    }
+}
 
 
 

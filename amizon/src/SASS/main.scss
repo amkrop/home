@@ -1,0 +1,16 @@
+@use "./absreacts/colors" as *;
+@use "./absreacts/fontSize" as *;
+@use "./absreacts/mixins" as *;
+@use "./layouts/header" ;
+
+:root{
+    @include m_p ;
+}
+
+body{
+    @include m_p;
+    header{
+        
+    }
+}
+

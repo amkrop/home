@@ -1,0 +1,31 @@
+
+@mixin m_p ($margin:0px,$padding:0px){
+    padding:$padding ;
+    margin: $margin;
+}
+
+@mixin buttom_header_buttons($f_d:column,$padding:0px) {
+    display: flex;
+    flex-direction:$f_d;
+    align-items: center;
+    padding: $padding;
+    font-size: $f-md;
+    // align-content: center;
+    &:hover{
+        border: solid #fff 1px;
+    }
+    
+}
+
+@mixin top_header_buttons($f_d:column,$padding:0px) {
+    display: flex;
+    flex-direction:$f_d;
+    align-items: flex-start;
+    padding: $padding;
+    // position: relative;
+    
+    &:hover{
+        border: solid #fff 1px;
+    }
+    
+}

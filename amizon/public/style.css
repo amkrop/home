@@ -11,7 +11,7 @@ header {
 
 .top_header {
   display: flex;
-  background-color: lightblue;
+  background-color: #131921;
   height: 60px;
   width: 100%;
 }
@@ -22,8 +22,26 @@ header {
 
 .buttom_header {
   display: flex;
-  background-color: lightgreen;
+  background-color: #232f3e;
   height: 39px;
+}
+
+.carousel {
+  background-color: lightgreen;
+  height: 100vh;
+  width: 96%;
+  margin: 0% auto;
+  z-index: -1;
+}
+
+.main {
+  background-color: #febd69;
+  width: 92vw;
+  height: 100vh;
+  margin: auto;
+  position: absolute;
+  top: 50vh;
+  left: 3.5%;
 }
 
 .top_header button, .buttom_header button {

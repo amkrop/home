@@ -1,3 +1,5 @@
+@use "../absreacts/variables" as *;
+
 body{
     margin: 0px;
     padding: 0px;
@@ -11,12 +13,20 @@ header{
 
 .top_header{
     display: flex;
-    background-color: lightblue;
+    background-color: $darkBlue;
     height: 60px;
     width: 100%;
     .main_logo{
         width: 113px;
         height: 60px;
+    }
+
+    
+
+    .right_side_nav{
+        display: flex;
+        position: absolute;
+        right:5px ;
     }
 }
 

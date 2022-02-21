@@ -66,17 +66,36 @@ header {
 }
 .top_header .main_logo {
   padding: 0px;
-  height: 50px;
+  height: 50px !important;
   width: 113px;
 }
-.top_header .deliver_to, .top_header .sign_in {
+.top_header .location_mark {
+  color: #fff;
+}
+.top_header .caret_down_light {
+  color: white;
+  z-index: 30000000;
+}
+.top_header .caret_down_dark {
+  z-index: 100000;
+}
+.top_header .sign_in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5px;
+}
+.top_header .delivery {
+  display: flex;
+}
+.top_header .deliver_to, .top_header .returns, .top_header .sign_div {
   display: flex;
   flex-direction: column;
   align-items: start;
   color: #fff;
   font-weight: 700;
 }
-.top_header .deliver_to > span:first-child, .top_header .sign_in > span:first-child {
+.top_header .deliver_to > span:first-child, .top_header .returns > span:first-child, .top_header .sign_div > span:first-child {
   font-size: 12px;
   line-height: 14px;
   height: 14px;
@@ -94,6 +113,47 @@ header {
   display: flex;
   align-items: center;
   padding-left: 20px;
+}
+.buttom_header .category {
+  background-color: #fff;
+  color: #ccc;
+  margin-right: 0px;
+}
+
+.form {
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: auto 0px;
+  resize: horizontal;
+  flex-grow: 1;
+  max-width: 800px;
+}
+.form .category {
+  height: 40px;
+  position: relative;
+  margin: 0px;
+  padding: auto;
+  border-radius: 5px 0px 0px 5px;
+}
+.form .nav_input {
+  height: 38px;
+  margin: 0px;
+  padding: auto;
+  border: none;
+  outline: none;
+  resize: horizontal;
+  flex-grow: 1;
+  max-width: 900px;
+}
+.form .nav_btn {
+  background-color: orange;
+  height: 40px;
+  margin: 0px;
+  padding: auto;
+  border-radius: 0px 5px 5px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

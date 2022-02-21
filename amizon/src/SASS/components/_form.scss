@@ -1,0 +1,45 @@
+.form{
+    // border: 3px solid orangered;
+    border-radius: 5px;
+    height:40px ;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: auto 0px;
+    resize: horizontal;
+    flex-grow: 1;
+    max-width: 800px;
+    .category{
+        height: 40px;
+        position: relative;
+        margin:0px;
+        padding: auto;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .nav_input{
+        height: 38px;
+        margin: 0px ;
+        padding: auto ;
+        border: none;
+        outline: none;
+        resize: horizontal;
+        flex-grow: 1;
+        max-width: 900px;
+        // &:focus .form{
+        //     border: 2px solid orange;
+        // }
+    }
+
+    .nav_btn{
+        background-color: orange;
+        height: 40px;
+        margin: 0px;
+        padding: auto;
+        border-radius: 0px 5px 5px 0px;
+       
+    }
+
+    
+}
+

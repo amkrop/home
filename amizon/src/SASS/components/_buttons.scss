@@ -9,7 +9,7 @@
         &:hover{
             border: 1px solid white;
         }
-    }
+    } 
 }
 
 .top_header{
@@ -17,12 +17,41 @@
     float: none;
     .main_logo{
         padding: 0px;
-        height: 50px;
+        height: 50px !important;
         width: 113px;
         
     }
+
     
-    .deliver_to,.sign_in{
+
+    .location_mark{
+        color: #fff;
+    }
+
+    .caret_down_light{
+        // height: 15px;
+        color: white ;
+        z-index: 30000000;
+    }
+
+    .caret_down_dark{
+        // height: 15px;
+        // color: #000 ;
+        z-index: 100000 ;
+    }
+    
+    .sign_in {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 5px;
+    }
+    
+    .delivery{
+        display: flex;
+    }
+
+    .deliver_to,.returns,.sign_div{
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -51,5 +80,10 @@
     align-items: center;
    padding-left:20px ;
     
+   .category{
+       background-color: #fff;
+       color: #ccc;
+       margin-right: 0px;
+   }
 }
 

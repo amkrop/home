@@ -1,5 +1,5 @@
 
-@use "../absreacts/index" as *;
+@use "../abstract/index" as *;
 
 
 
@@ -37,6 +37,45 @@ header{
     display: flex;
     background-color: $blue;
     height: 39px;
+    .menu{
+        background-color: #fff;
+        color: black;
+        width: 365px;
+        height: 100vh;
+        z-index: 2;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: scroll;
+        &>div{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 20px 5px 30px;
+        }
+        .hello_sign_in{
+            background-color: $blue;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            padding-left: 20px;
+            font-size: 15px;
+            height: 50px;
+            justify-content: start;
+            i{
+                background-color: #fff;
+                color: $blue;
+                border-radius: 50px;
+                font-size: 23px;
+                height:27px;
+                width: 27px;
+                padding-left: 6px;
+                padding-top: 5px	;
+            }
+            h3{
+                padding-left:10px ;
+            }
+        }
+    }
 }
 
 ///////////CAROUSEL//////////// 

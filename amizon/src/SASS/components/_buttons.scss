@@ -51,6 +51,8 @@
         display: flex;
     }
 
+    
+
     .deliver_to,.returns,.sign_div{
         display: flex;
         flex-direction: column;
@@ -87,3 +89,6 @@
    }
 }
 
+.delivery_background{
+    background-color: red;
+}

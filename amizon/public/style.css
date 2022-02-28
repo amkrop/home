@@ -30,6 +30,45 @@ header {
   background-color: #232f3e;
   height: 39px;
 }
+.buttom_header .menu {
+  background-color: #fff;
+  color: black;
+  width: 365px;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: scroll;
+}
+.buttom_header .menu > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 5px 30px;
+}
+.buttom_header .menu .hello_sign_in {
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-left: 20px;
+  font-size: 15px;
+  height: 50px;
+  justify-content: start;
+}
+.buttom_header .menu .hello_sign_in i {
+  background-color: #fff;
+  color: #232f3e;
+  border-radius: 50px;
+  font-size: 23px;
+  height: 27px;
+  width: 27px;
+  padding-left: 6px;
+  padding-top: 5px;
+}
+.buttom_header .menu .hello_sign_in h3 {
+  padding-left: 10px;
+}
 
 .carousel {
   background-color: lightgreen;
@@ -120,6 +159,10 @@ header {
   margin-right: 0px;
 }
 
+.delivery_background {
+  background-color: red;
+}
+
 .form {
   border-radius: 5px;
   height: 40px;
@@ -154,6 +197,58 @@ header {
   margin: 0px;
   padding: auto;
   border-radius: 0px 5px 5px 0px;
+}
+
+.input_focused {
+  border: 3px solid orange;
+}
+
+.category .category_dropdown {
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  height: 280px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 240px;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+.category .category_dropdown ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  background-color: #fff;
+  align-items: start;
+  padding: 10px 0px;
+  margin: 0px;
+  width: 240px;
+}
+.category .category_dropdown li {
+  position: relative;
+  padding: 5px 0px;
+  margin: 0px;
+  left: 2px;
+}
+.category .category_dropdown li:hover {
+  background-color: grey;
+}
+.category .category_dropdown a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  border: none;
+  margin: 0px;
+  padding: 8px;
+  width: 100%;
+}
+.category .category_dropdown a:hover {
+  border: none !important;
+}
+.category .category_add {
+  display: block !important;
 }
 
 /*# sourceMappingURL=style.css.map */
